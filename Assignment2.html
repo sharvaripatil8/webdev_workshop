@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="border:1px solid black; width:410px;padding-bottom:10px; margin-bottom: 50px;">
+        <div style="width: 400px; margin:auto;">
+            <form action=”action_page.php” method=”post”>
+                <fieldset style="border-radius: 10px;">
+                    <legend><strong> Prsonal information:</strong></legend>
+                    <label> Last name:</label> <sup style="color:red;">*</sup><br>
+                    <input type=”text” name=”lastname” value="abc" placeholder="Last Name" required><br>
+
+                    <label>First name:</label><sup style="color:red;">*</sup>
+                    <label style="margin-left: 125px;"> Middle name:</label> <sup style="color:red;">*</sup><br>
+
+                    <input type=”text” name=”firstname” value="abc" placeholder="First Name" required>
+                    <input style="margin-left: 30px;" type=”text” name=”middlename” placeholder="middle Name"
+                        required><br>
+
+                    <label>Email</label><sup style="color:red;">*</sup><br>
+                    <input style="width: 355px;" type="text" placeholder="Email" required> <br>
+
+                    <label>Resume</label><br>
+                    <textarea style="width: 355px;" name=”description”></textarea><br />
+                </fieldset>
+            </form>
+        </div>
+        <div style="width:400px; margin:auto">
+            <form>
+                <fieldset style="border-radius: 10px;">
+                    <legend><strong> Job </strong></legend>
+                    <label> Position applied for</label>
+                    <label style="margin-left: 125px;"> Hourly Wage</label><sup style="color: red;">*</sup>
+                    <select>
+                        <option>Develaper</option>
+                        <option>QA Testing</option>
+                        <option>software Testing</option>
+                    </select>
+                    <input min="0" value="1" type="number" style="margin-left: 140px; width: 50px;" required><br>
+
+                    <label> Date You can Start</label>
+                    <label style="padding-left: 130px;"> Weekly Hours</label><sup style="color: red;">*</sup><br>
+                    <select name="abc" id="def">
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                        <option value="">July</option>
+                        <option value="">Aug</option>
+                        <option value="">Sapt</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+                    <input type="number" value="1" min="0" max="31">
+                    <input type="number" value="2021" min="2015" max="2022">
+                    <input type="number" value="40" min="0" style="margin-left: 50px; width:50px;" required>
+                </fieldset>
+            </form>
+        </div>
+        <input type=”submit” value="Submit" style="margin: 5px 0 0 10px; width:50px; margin-left: 335px;">
+    </div>
+
+    <div class="borderr" style="width:650px; border:2px solid black;">
+        <form>
+            Student registration Form
+            <i class="fa fa-close" style="margin-left: 460px;"></i>
+            <fieldset style="width:584px;border-width:2px;margin-left: 17px;">
+                <legend>Enter Details</legend>
+                <div style="display: flex;">
+                    <div style="flex:1; ">
+                        Student's name
+                        <input type="text" class="colorname"
+                            style="margin-left: 15px; border:1px solid brown;width:152px;"><br><br>
+                        Father's name
+                        <input type="text" class="colorname"
+                            style="margin-left: 23px; border:1px solid brown;width:152px;"><br><br>
+                        Date of Birth
+                        <input type="date" class="colorname"
+                            style="margin-left: 28px; border:1px solid brown;width:152px;"> <br><br>
+                        Gender
+                        <input type="radio" name="abc" id="" style="margin-left: 65px; border-color:brown;">
+                        male
+                         <input type="radio" name="abc" style=" border-color: brown;">
+                        Female <br><br>
+
+
+                        Course applied
+                        <select style="margin-left: 17px; border:1px solid brown;width:152px;">
+                            <option>C</option>
+                            <option>C++</option>
+                            <option>Java</option>
+                            <option>C#</option>
+                        </select> <br><br>
+                        Mobail number
+                        <input type="number" style="margin-left: 15px; width:152px; border: 1px solid brown;"> <br><br>
+                        Email
+                        <input type="text" style="margin-left: 75px; width:152px; border:1px solid brown;"> <br><br>
+                    </div>
+                    <div style="flex:1; ">
+                        <div style="   border:1px solid brown; width:120px; height: 120px; margin-left: 50px;"></div>
+                        <br>
+                        <input type="file" name="" id="" value="Uload Image" style="margin-left:50px;"><br><br>
+                        <label style="margin-left:50px;"> address: </label><br>
+                        <textarea name="" id="" cols="30" rows="5"
+                            style=" border:1px solid brown;margin-left: 50px; "></textarea><br><br>
+                        <input type="submit" style="background-color: aqua; margin-left: 180px;">
+                        <input type="reset"
+                            style="background-color: rgb(255, 0, 0); border-bottom: 2px solid black; border-right: 2px solid black;">
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Database</legend>
+                <input type="Edit" value="Edit" style="width:40px;padding-left: 18px; background-color: blueviolet;">
+                <input type="delet" value="Delet" style="width:40px;padding-left: 18px; background-color:coral;">
+                <table style="height:200px; border:2px solid brown;width: 620px;"><br><br>
+                    <tr>
+                        <th style="padding-bottom: 160px;">S.No</th>
+                        <th style="padding-bottom: 160px;">student's Number</th>
+                        <th style="padding-bottom: 160px;">Father's Name</th>
+                        <th style="padding-bottom: 160px;">Mobail No</th>
+                        <th style="padding-bottom: 160px;">Email ID</th>
+                        <th style="padding-bottom: 160px;">Address</th>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
